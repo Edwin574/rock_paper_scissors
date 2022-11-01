@@ -31,4 +31,24 @@ while player not in choices:
                         print("Computer:",computer)
                         print("Player:",player)
                         print('player wins')
+                else:
+                    if player=='scissors':
+                        if computer=='rock':
+                            print('Computer',computer)
+                            print('Player',player)
+                            print('Computer wins')
+                    else:
+                        if player=='paper':
+                            if computer=='rock':
+                                print('Computer',computer)
+                                print('Player',player)
+                                print('Player wins')
+                        else:
+                            if player=='paper':
+                                if computer=='scissors':
+                                      print('Computer',computer)
+                                      print('Player',player)
+                                      print('Player wins')
+                    
+
              
